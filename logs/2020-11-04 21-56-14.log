@@ -1,0 +1,13 @@
+[2020-11-04 21:56:14,857] [logger.py|__console] [line:35] INFO    : You had select 127.0.0.1:4444 host chrome browser.
+[2020-11-04 21:56:18,897] [logger.py|__console] [line:35] INFO    : test_login1_normal is start run...
+[2020-11-04 21:56:37,425] [logger.py|__console] [line:35] INFO    : The element ' 账号密码登录 ' was clicked.
+[2020-11-04 21:56:37,976] [logger.py|__console] [line:35] INFO    : Had type ' 15011111111 ' in inputBox
+[2020-11-04 21:56:38,127] [logger.py|__console] [line:35] INFO    : Had type ' 1111111111 ' in inputBox
+[2020-11-04 21:56:38,159] [logger.py|__console] [line:35] INFO    : The element ' 登录 ' was clicked.
+[2020-11-04 21:56:51,318] [logger.py|__console] [line:41] ERROR   : <pageObject.loginPage.CndsPage object at 0x000001A8D090BA88>页面中未能找到hasAvatar元素
+[2020-11-04 21:56:53,680] [logger.py|__console] [line:35] INFO    : You had select 127.0.0.1:4444 host chrome browser.
+[2020-11-04 21:56:57,430] [logger.py|__console] [line:35] INFO    : test_login1_normal is start run...
+[2020-11-04 21:57:15,359] [logger.py|__console] [line:35] INFO    : The element ' 账号密码登录 ' was clicked.
+[2020-11-04 21:57:15,628] [logger.py|__console] [line:35] INFO    : Had type ' 1501111111 ' in inputBox
+[2020-11-04 21:57:15,731] [logger.py|__console] [line:35] INFO    : Had type ' aaaaaaaa ' in inputBox
+[2020-11-04 21:57:15,754] [logger.py|__console] [line:35] INFO    : The element ' 登录 ' was clicked.

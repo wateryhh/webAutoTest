@@ -1,0 +1,19 @@
+-
+  id: test_login001.1
+  detail : 登录成功
+  screenshot : login_success
+  data:
+    accout: "15011111111"
+    passwd: "1111111111"
+  check :
+     - Water_you
+-
+  id: test_login001.2
+  detail : 密码错误
+  screenshot : passwd_error
+  data :
+    accout: 1501111111
+    passwd : aaaaaaaa
+  check :
+    - 用户名或密码错误
+

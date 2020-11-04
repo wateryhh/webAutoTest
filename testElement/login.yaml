@@ -1,0 +1,31 @@
+testinfo:
+      - id: test_login001
+        title: 登录测试
+        info: 打开CNDS登录页
+testcase:
+      - element_info: 账号密码登录
+        find_type: link_text
+        operate_type: click
+        info: 切换密码登录
+      - element_info: all
+        find_type: id
+        operate_type: send_keys
+        info: 输入账号
+      - element_info: password-number
+        find_type: id
+        operate_type: send_keys
+        info: 输入密码
+      - element_info: "[data-type='account']"
+        find_type: cs
+        operate_type: click
+        info: 点击登录
+check:
+      - element_info: hasAvatar
+        find_type: cn
+        info: 鼠标悬停我的菜单
+      - element_info: user-id
+        find_type: cn
+        info: 鼠标悬停我的菜单
+      - element_info: js_err_dom
+        find_type: id
+        info: 错误提示
